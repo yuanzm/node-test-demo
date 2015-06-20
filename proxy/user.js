@@ -21,12 +21,3 @@ exports.newAndSave = function(loginname, password, callback) {
 exports.getUserByLoginName = function(loginname, callback) {
     User.findOne({'loginname': loginname}, callback);
 }
-
-/*
- * 根据登录名查询用户
- * @param {String} id: 用户id
- * @param {Function} callback: 操作之后的回调函数 
- */
-exports.getUserById = function(id, callback) {
-    User.findOne({'_id': id}, callback);
-}
