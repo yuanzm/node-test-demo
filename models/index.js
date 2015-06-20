@@ -11,5 +11,7 @@ mongoose.connect(connection_string, function(err) {
 });
 
 require('./user.js');
+require('./topic.js')
 
 exports.User = mongoose.model('User');
+exports.Topic = mongoose.model('Topic');

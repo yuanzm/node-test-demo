@@ -1,4 +1,5 @@
 module.exports = {
+	debug: true,
     // 端口
     port: 3000,
     session_secret: "yuanzm",

@@ -29,6 +29,8 @@
     "express": "^4.12.4",
     "express-session": "^1.11.3",
     "mongoose": "^4.0.5",
+    "pedding": "^1.0.0",
+    "ready": "^0.1.1",
     "should": "^7.0.1",
     "supertest": "^1.0.1"
   }
